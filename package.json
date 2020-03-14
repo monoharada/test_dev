@@ -1,0 +1,48 @@
+{
+  "name": "test_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-pug": "pug --out dist --basedir src/pug --pretty src/pug",
+    "compile-js": "webpack",
+    "compile-pcss": "postcss src/pcss/style.pcss --map --output dist/css/style.min.css",
+    "watch-compile": "chokidar src/js/**/*.js src/pcss/**/*.pcss src/pug/**/*.pug --ignore src/**/_*.* --command \"node compile.js {path}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoharada/test_dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monoharada/test_dev/issues"
+  },
+  "homepage": "https://github.com/monoharada/test_dev#readme",
+  "dependencies": {
+    "gibo": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "chokidar": "^3.3.1",
+    "chokidar-cli": "^2.1.0",
+    "node-notifier": "^6.0.0",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "postcss-csso": "^4.0.0",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nesting": "^7.0.1",
+    "pug": "^2.0.4",
+    "pug-cli": "github:pugjs/pug-cli#master",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
