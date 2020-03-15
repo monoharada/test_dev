@@ -1,0 +1,45 @@
+:root {
+  --color: blue;
+}
+.h {
+  color: var(--color);
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  &_h02 {
+    color: red;
+  }
+}
+
+.h2 {
+  flex-wrap: wrap;
+}
+
+.job-list {
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  &__text {
+    margin-top: 20px;
+    color: #333;
+    @include fontsize(14, 16) @include media(sp) {
+      margin-left: -5px;
+      margin-top: 11px;
+    }
+  }
+  &__image {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    @include media(pc) {
+      width: 110px;
+      height: 110px;
+    }
+  }
+}

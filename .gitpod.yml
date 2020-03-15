@@ -1,3 +1,9 @@
 vscode:
   extensions:
     - WakaTime.vscode-wakatime@4.0.0:7DDbqilZlXUzWN2DBJXbWw==
+    - mgmcdermott.vscode-language-babel@0.0.26:tpzOQwl4BRcQxRqs5NS+Ig==
+    - mhmadhamster.postcss-language@2.1.0:m43Ec7szHG4htkD5ggff4w==
+    - mrmlnc.vscode-puglint@2.3.0:stzCxEuiAH7aRiXF1j4lZA==
+    - dbaeumer.vscode-eslint@2.1.1:DO6k4GCpqhwZcKo+jY9xjQ==
+    - stylelint.vscode-stylelint@0.83.0:SNuthQiF+4L46iMu1FeXcw==
+    - esbenp.prettier-vscode@3.20.0:37/f4uBlE287wUjENFq1aA==
