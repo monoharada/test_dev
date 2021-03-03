@@ -52,7 +52,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-scss": "^2.0.0",
     "prettier": "^1.19.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-cli": "github:pugjs/pug-cli#master",
     "pug-lint": "^2.6.0",
     "stylelint": "^13.2.1",
